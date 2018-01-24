@@ -1,0 +1,129 @@
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+/*
+.root {
+  margin: 0 auto;
+  padding-top: 4em;
+  width: 80%;
+}*/
+
+#SITE_HEADER {
+	margin: 0 auto;
+    width: 70%;
+    position: relative;
+    padding: 30px;
+}
+#SITE_BODY {
+    margin: 0 auto;
+    width: 100%;
+}
+.pic {	
+    float: left;
+    padding: 10px;
+    display: inline-block;
+    width: calc(((100vw - 60px) - 0px) / 2);
+}
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.middle .text{	
+    color: #2F2E2E;
+    font: normal normal normal 20px/1.4em raleway,sans-serif;
+    line-height: 1.3em;
+    max-height: 3.9em;
+}
+.footer .txtNew {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  background-color: #efefef;
+}
+/*
+.container {
+    position: relative;
+    width: 100%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}*/
+.container:hover .image {
+  opacity: 0.3;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+.text {
+  color: #404040;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.font_1 {font: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#404040;margin: 0;} 
+.font_2 {font: normal normal bold 40px/1.4em futura-lt-w01-book,sans-serif ;color:##404040;margin: 0;} 
+.font_3 {font: normal normal bold 80px/1.4em futura-lt-w01-book,sans-serif ;color:#404040;margin: 0;} 
+.font_4 {font: normal normal bold 40px/1.4em futura-lt-w01-book,sans-serif ;color:#404040;margin: 0;} 
+.font_5 {font: normal normal normal 30px/1.4em futura-lt-w01-book,sans-serif ;color:#404040;margin: 0;} 
+.font_6 {font: normal normal bold 25px/1.4em futura-lt-w01-book,sans-serif ;color:#404040;margin: 0;} 
+.font_7 {font: normal normal normal 17px/1.4em futura-lt-w01-book,sans-serif ;color:#404040;margin: 0;} 
+.font_8 {font: normal normal normal 15px/1.4em futura-lt-w01-book,sans-serif ;color:#404040;margin: 0;} 
+.font_9 {font: normal normal normal 14px/1.4em futura-lt-w01-book,sans-serif ;color:#404040;margin: 0;} 
+.font_10 {font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#404040;margin: 0;} 
+
+.m-t-15 {
+	margin-top: 15px;
+}
