@@ -1,0 +1,19 @@
+.section {
+    padding: 8rem 0 7rem;
+    text-align: center;
+}
+
+.section-heading,
+.section-description {
+    margin-bottom: 1.2rem;
+}
+
+.main {
+    border-bottom: 1px solid #ddd;
+}
+
+.footer {
+    background-color: gray;
+    color: #fff;
+    padding-bottom: 5rem;
+}
